@@ -1,0 +1,28 @@
+POST http://localhost:3000/videos
+Content-Type:  application/json
+
+{
+  "title": "alguma coisa",
+  "description": "askdas sa sdsdsd sd",
+  "duration": 230
+}
+
+###
+
+GET http://localhost:3000/videos
+
+###
+
+
+PUT http://localhost:3000/videos/bf8eb68e-875e-426d-aad4-696887ba07c5
+Content-Type: application/json
+
+{
+  "title": "atualizei o video",
+  "description": "tesdsdstando o put",
+  "duration": 10
+}
+
+
+###
+DELETE http://localhost:3000/videos/baf0de24-b904-4ea8-ad1c-43de1f20b394
