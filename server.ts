@@ -40,7 +40,7 @@ server.delete("/videos/:id",async (request: any, reply: any) => {
 
 
 
-server.listen({ port: process.env.PORT || 3000 }, (err: any, address: string) => {
+server.listen({ port: process.env.PORT || 3000, host: "0.0.0.0" }, (err: any, address: string) => {
     if (err) {
         console.error(err)
         process.exit(1)
