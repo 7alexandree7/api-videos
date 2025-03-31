@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsx server.ts",
     "dev": "tsx watch server.ts",
     "table": "tsx create-table.ts"
   },
